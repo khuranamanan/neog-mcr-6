@@ -29,7 +29,10 @@ function SingleRestaurent() {
 
   return (
     <div className="flex flex-col gap-6 w-full max-w-4xl mx-auto items-center my-2">
-      <Link to={-1} className="text-gray-600 hover:text-gray-900 self-start">
+      <Link
+        to={-1}
+        className="text-white p-2 rounded-full aspect-square bg-red-600 hover:bg-red-500 self-start"
+      >
         <AiOutlineArrowLeft size={20} />
       </Link>
 
